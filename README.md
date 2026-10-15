@@ -1,10 +1,10 @@
-# 🍔 Fast Food Calorie Shock: Food vs. Workout Burn Analysis
+# Fast Food Calorie Shock: Food vs. Workout Burn Analysis
 
 > A comprehensive data analysis and machine learning project exploring the caloric impact of fast food meals versus the physical effort required to burn them off.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
@@ -24,7 +24,7 @@
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project analyzes **8,000 fast food meal orders** across multiple chains, examining the caloric content, macronutrient breakdown, and the corresponding **exercise time required** to offset the consumed calories. The analysis reveals the shocking reality of fast food consumption and the physical effort needed to maintain caloric balance.
 
@@ -32,7 +32,7 @@ The project combines **Exploratory Data Analysis (EDA)**, **Machine Learning reg
 
 ---
 
-## 📁 Dataset Description
+##  Dataset Description
 
 **Source:** Kaggle — *Fast Food Calorie Shock: Food vs. Workout Burn*
 
@@ -46,7 +46,7 @@ The project combines **Exploratory Data Analysis (EDA)**, **Machine Learning reg
 
 ---
 
-## 🔧 Features
+##  Features
 
 ### Meal Information
 
@@ -157,7 +157,7 @@ The project combines **Exploratory Data Analysis (EDA)**, **Machine Learning reg
 
 ---
 
-## 📈 Analysis & Visualizations
+##  Analysis & Visualizations
 
 The notebook includes the following key visualizations:
 
@@ -255,7 +255,7 @@ ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=7, min_lr=1e-6)
 | MAE | 8.67 |
 | RMSE| 18.07|
 
-### 🔑 Key Findings
+###  Key Findings
 - Average meal contains ~1,603 calories with 80g fat, 166g carbs, and 54g protein
 - Average walking time to burn a meal: ~350 minutes (~5.8 hours)
 - Average running time: ~118 minutes (~2 hours)
@@ -298,7 +298,7 @@ df = pd.read_csv('fast_food_cheat_meal_workout_burn') # when downloading from ka
 print(df.shape)  # (8000, 23)
 print(df.head())
 ```
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 - Fork the repository
 - Create your feature branch (git checkout -b feature/AmazingFeature)
